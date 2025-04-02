@@ -1,2 +1,73 @@
-# Spring-Ollama-Chat-API
-Spring-Ollama Chat API is a backend service using **Spring Boot** and **Ollama** to provide AI-driven chat functionality with RESTful APIs, CORS support, and seamless web integration. 🚀
+# Spring-Ollama Chat API
+
+## Description
+Spring-Ollama Chat API is a backend service built with **Spring Boot** and **Ollama** that provides AI-powered chat functionality. It includes features like Cross-Origin Resource Sharing (CORS) and an AI chat model for handling user interactions.
+
+## Features
+- AI-powered chat functionality using **Ollama**.
+- Cross-Origin Resource Sharing (**CORS**) enabled.
+- RESTful API built with **Spring Boot**.
+- Web dependency for seamless integration with front-end applications.
+
+## Technologies Used
+- **Spring Boot** (Java-based framework)
+- **Ollama AI** (Chat model integration)
+- **Spring Web** (REST API support)
+- **Maven** (Dependency management)
+
+## Installation & Setup
+### Prerequisites
+- **Java 17+** installed.
+- **Maven** for dependency management.
+
+### Steps to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd spring-ollama-chat-api
+   ```
+2. Build the project using Maven:
+   ```sh
+   mvn clean install
+   ```
+3. Run the application:
+   ```sh
+   mvn spring-boot:run
+   ```
+
+## API Endpoints
+- `GET /api/chat/{message}` - Sends a message to the AI chat model and gets a response.
+- `GET /api/status` - Checks the server status.
+
+## Project Structure
+```
+Ai/
+│── .idea/
+│── .mvn/
+│── src/
+│   ├── main/
+│   │   ├── java/org/example/ai/
+│   │   │   ├── controller/
+│   │   │   │   ├── OllamaController.java
+│   │   │   │   ├── AiApplication.java
+│   │   ├── resources/
+│   │   │   ├── static/
+│   │   │   ├── templates/
+│   │   │   ├── application.properties
+│   ├── test/
+│── target/
+│── .gitattributes
+│── .gitignore
+│── HELP.md
+│── mvnw
+│── mvnw.cmd
+│── pom.xml
+```
+
+## Author
+- **Tornov Dutta**
+- Email: shariqsd2003@gmail.com
+
+## License
+This project is licensed under the MIT License.
+
