@@ -49,7 +49,7 @@ Ai/
 │   │   ├── java/org/example/ai/
 │   │   │   ├── controller/
 │   │   │   │   ├── OllamaController.java
-│   │   │   │   ├── AiApplication.java
+│   │   │   ├── AiApplication.java
 │   │   ├── resources/
 │   │   │   ├── static/
 │   │   │   ├── templates/
