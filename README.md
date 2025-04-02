@@ -19,6 +19,22 @@ Spring-Ollama Chat API is a backend service built with **Spring Boot** and **Oll
 ### Prerequisites
 - **Java 17+** installed.
 - **Maven** for dependency management.
+- **Ollama AI** installed.
+
+### Steps to Install Ollama & LLM Model
+#### Install Ollama:
+```sh
+curl -fsSL https://ollama.com/install.sh | sh
+```
+Or on Windows (using PowerShell):
+```sh
+iwr -useb https://ollama.com/install.ps1 | iex
+```
+
+#### Install the Llama 3.2:1B Model:
+```sh
+ollama pull llama3.2:1b
+```
 
 ### Steps to Run the Project
 1. Clone the repository:
@@ -39,8 +55,10 @@ Spring-Ollama Chat API is a backend service built with **Spring Boot** and **Oll
 - `GET /api/chat/{message}` - Sends a message to the AI chat model and gets a response.
 - `GET /api/status` - Checks the server status.
 
-## LLM Model Used
-This project utilizes **Llama 3.2:1B**, a **large language model (LLM)** optimized for AI-driven conversations. Llama 3.2:1B is designed for efficient and accurate responses while maintaining lightweight computational requirements, making it suitable for real-time chat applications.
+## LLM Model Details
+- **Model Name:** Llama 3.2:1B
+- **Size:** 1 Billion Parameters
+- **Purpose:** Lightweight AI chat model
 
 ## Project Structure
 ```
