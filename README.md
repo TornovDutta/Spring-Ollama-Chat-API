@@ -23,7 +23,7 @@ Spring-Ollama Chat API is a backend service built with **Spring Boot** and **Oll
 ### Steps to Run the Project
 1. Clone the repository:
    ```sh
-   git clone [<repository-url>](https://github.com/TornovDutta/Spring-Ollama-Chat-API.git)
+   git clone https://github.com/TornovDutta/Spring-Ollama-Chat-API.git
    cd spring-ollama-chat-api
    ```
 2. Build the project using Maven:
