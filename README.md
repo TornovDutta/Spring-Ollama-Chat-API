@@ -39,6 +39,9 @@ Spring-Ollama Chat API is a backend service built with **Spring Boot** and **Oll
 - `GET /api/chat/{message}` - Sends a message to the AI chat model and gets a response.
 - `GET /api/status` - Checks the server status.
 
+## LLM Model Used
+This project utilizes **Llama 3.2:1B**, a **large language model (LLM)** optimized for AI-driven conversations. Llama 3.2:1B is designed for efficient and accurate responses while maintaining lightweight computational requirements, making it suitable for real-time chat applications.
+
 ## Project Structure
 ```
 Ai/
