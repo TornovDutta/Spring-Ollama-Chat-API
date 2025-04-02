@@ -66,7 +66,7 @@ Ai/
 
 ## Author
 - **Tornov Dutta**
-- Email: shariqsd2003@gmail.com
+- Email: tornovdutta@gmail.com
 
 ## License
 This project is licensed under the MIT License.
