@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    restart: always
+    ports:
+      - "11434:11434"
+
+  app:
+    image: spring-ollama-chat-api
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ollama
+    environment:
+      - SPRING_APPLICATION_NAME=Ai
+      - SPRING_AI_OLLAMA_CHAT_OPTIONS_MODEL=llama3:8b
+      - SPRING_AI_OLLAMA_BASE_URL=http://ollama:11434
