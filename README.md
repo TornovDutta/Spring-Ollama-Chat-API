@@ -85,7 +85,7 @@ docker-compose up -d
 ```
 
 ## API Endpoints
-- `GET /api/chat/{message}` - Sends a message to the AI chat model and gets a response.
+- `GET /api/model name/{message}` - Sends a message to the AI chat model and gets a response.
 - `GET /api/status` - Checks the server status.
 
 ## LLM Model Details
